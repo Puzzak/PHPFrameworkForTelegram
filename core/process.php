@@ -81,9 +81,9 @@
         $Reply[text]=$message['reply_to_message']['text'];
         //same - too many parameters - here is most userfull  
     $Message[bot]=$message['via_bot'];//User object
-        $User[id]=$message['via_bot']['id'];
-        $User[fname]=$message['via_bot']['first_name'];
-        $User[username]=$message['via_bot']['username'];
+        $VBot[id]=$message['via_bot']['id'];
+        $VBot[fname]=$message['via_bot']['first_name'];
+        $VBot[username]=$message['via_bot']['username'];
         //what? Smthng else?
     
     $Message[caption]=$message['caption'];
